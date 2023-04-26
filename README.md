@@ -1,2 +1,2 @@
-"# django-polls" 
+README.md
 
