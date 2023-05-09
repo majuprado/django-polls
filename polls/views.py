@@ -5,4 +5,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return HttpResponse("Olá, seja bem-vindo a enquete.")
+
+def sobre(request):
+    return HttpResponse("Esse é um app de enquete.")
