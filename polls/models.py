@@ -16,7 +16,9 @@ class Choice(models.Model):
 
 
     #no terminal:
-    # python manage.py migrate
+    # python manage.py migratemport
 
     #configurar o módulo polls p ser reconhecido mo arquivo pasta-projeeto/settings.py incluir o módulocomo INSTALLED_APPS
     # python manage.py makemigrations
+
+   # pip install -r requirements.txt
