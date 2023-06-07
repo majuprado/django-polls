@@ -4,6 +4,9 @@ from . import views
 
 urlpatterns = [
     path("", views.index, name="index"),
-    path('sobre/', views.sobre, name="sobre")
+    path('admin/', admin.site.urls)
 ]
-
+urlpatterns = [
+   ...
+   path('pergunta/<int:question_id>', views.exibe_questao, name='exibe_questao')
+]
