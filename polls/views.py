@@ -39,3 +39,4 @@ def ultimas_perguntas(request):
     context = {'latest_question_list': latest_question_list}
     return render(request, 'perguntas_recentes.html', context)
 
+
